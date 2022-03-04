@@ -8,13 +8,20 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <form>
+    <form name="information" method="POST" data-netlify="true">
       <textarea
         name="field1"
         placeholder="write your stupid text here"
         rows="6"
       >
       </textarea>
+      <label for="name">First Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Your name here you idiot"
+      />
     </form>
   </body>
 </html>
